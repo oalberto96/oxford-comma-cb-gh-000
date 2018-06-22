@@ -1,5 +1,6 @@
 def oxford_comma(array)
   result = ""
+  return array.first if array.size == 1
   array.each_with_index do |item, index|
     if array.size - 1 == index
       result << item
