@@ -5,7 +5,7 @@ def oxford_comma(array)
       result << item
       break
     end
-    result << item
+    result << "#{item} "
     if array.size > 2
       result << ","
     end
