@@ -1,6 +1,6 @@
 def oxford_comma(array)
-  new_array = []
+  result = ""
   array.each_with_index do |item, index|
-    puts array.join(index + 1 < array.size - 1 ? ", " : " and ")
+    puts result << (index + 1 < array.size - 1 ? ", " : " and ")
   end
 end
