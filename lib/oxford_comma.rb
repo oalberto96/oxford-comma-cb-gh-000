@@ -8,6 +8,8 @@ def oxford_comma(array)
     result << "#{item}"
     if array.size > 2
       result << ", "
+    else
+      result << " "
     end
     aux = index == array.size - 2 ? "and " : ""
     result << aux
