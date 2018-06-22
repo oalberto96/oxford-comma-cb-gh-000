@@ -9,5 +9,5 @@ def oxford_comma(array)
     aux = index == array.size - 2 ? "and " : ""
     result << aux
   end
-  puts result
+  result
 end
