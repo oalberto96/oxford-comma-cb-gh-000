@@ -6,8 +6,8 @@ def oxford_comma(array)
       break
     end
     result << "#{item}, "
-    aux = index > array.size - 2 ? " and " : "" 
-    result << 
+    aux = index > array.size - 1 ? " and " : ""
+    result << aux
   end
   result
 end
