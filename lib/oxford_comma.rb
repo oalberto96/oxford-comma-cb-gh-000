@@ -5,10 +5,8 @@ def oxford_comma(array)
       result << item
       break
     end
-
-    if array.size > 1
+    result << "#{item}, "
       result << "#{item}#{index < array.size - 2 ? ", " : ", and " }"
-    end
   end
   result
 end
