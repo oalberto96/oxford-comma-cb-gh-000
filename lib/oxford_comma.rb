@@ -1,10 +1,8 @@
 def oxford_comma(array)
   result = ""
   array.each_with_index do |item, index|
-    if index < array.size - 2
-      result << " and #{item}"
-    else
-      result << "#{item}, "
+    if array.size > 1
+      
     end
   end
   result
