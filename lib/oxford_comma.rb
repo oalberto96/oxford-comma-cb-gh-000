@@ -5,7 +5,9 @@ def oxford_comma(array)
       result << item
       break
     end
-    result << "#{item}, "
+    if array.size > 2
+      result << "#{item}, "
+    end
     aux = index == array.size - 2 ? "and " : ""
     result << aux
   end
