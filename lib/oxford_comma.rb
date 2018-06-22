@@ -9,7 +9,7 @@ def oxford_comma(array)
     if array.size > 2
       result << ", "
     end
-    aux = index == array.size - 2 ? "and " : ""
+    aux = index == array.size - 2 ? " and " : ""
     result << aux
   end
   result
