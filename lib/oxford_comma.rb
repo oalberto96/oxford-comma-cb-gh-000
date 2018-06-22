@@ -9,5 +9,5 @@ def oxford_comma(array)
       result << "#{item} #{index < array.size - 2 ? ", " : " and " }"
     end
   end
-  puts result
+  result
 end
